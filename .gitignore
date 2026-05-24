@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Images & processed output (local only, never commit)
+examples/
+*.png
+*.jpg
+*.jpeg
+*.PNG
+*.JPG
+*.JPEG
+*.webp
+*.tiff
+*.tif
+*.heic
+*.heif
+*.bmp
+
+# Output zips
+*.zip
+
+# Logs
+*.log
+logs/
