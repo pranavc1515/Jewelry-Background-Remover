@@ -1,0 +1,24 @@
+# Background removal core
+rembg>=2.0.57
+onnxruntime>=1.19.0          # CPU runtime — swap for onnxruntime-gpu if you have CUDA
+
+# Image processing
+Pillow>=10.4.0
+opencv-python-headless>=4.10.0.84
+numpy>=1.26.4
+
+# HEIC/HEIF support
+pillow-heif>=0.18.0
+
+# CLI
+typer>=0.12.5
+rich>=13.9.0                 # Pretty terminal output (typer dependency)
+
+# Web UI
+gradio>=4.44.0
+
+# Utilities
+tqdm>=4.66.5                 # Batch progress bars
+
+# Testing
+pytest>=9.0.0
